@@ -10,7 +10,12 @@
 html{
     scroll-behavior: smooth;
 }
-
+a{
+    color: white;
+}
+a:hover{
+    color:black;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -165,7 +170,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("im1.jpg") no-repeat center; 
+    background: url("imgs/im1.jpg") no-repeat center; 
 
     height: 100vh;
     color: #fff;
